@@ -49,7 +49,7 @@ def merge_dicts(dict1, dict2):
             merged_dict[key] = value
     return merged_dict
 
-#Object-Oriented Programming: Class Creation (2 points)
+#OOP: Class Creation 
 class Car:
     def __init__(self, make, model, year):
         self.make = make
