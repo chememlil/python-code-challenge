@@ -35,11 +35,11 @@ def decorator_func(func):
 def apply_decorator(func):
     return func()
 
-#Sequences: Sort List of Tuples 
+#Sequences
 def sort_by_age(list_of_tuples):
     return sorted(list_of_tuples, key=lambda x: x[1])
 
-#Sets and Dictionaries: Merge Dictionaries 
+#Sets and Dictionaries:
 def merge_dicts(dict1, dict2):
     merged_dict = dict1.copy()
     for key, value in dict2.items():
